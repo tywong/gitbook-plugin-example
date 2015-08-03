@@ -1,0 +1,7 @@
+// Copy this json file to your book repo //
+{
+	"plugins": [
+		"example"
+	],
+	"gitbook": ">=2.0.0"
+}
