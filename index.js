@@ -14,7 +14,7 @@ module.exports = {
         // Author will be able to write "{% myTag %}World{% endMyTag %}"
         CoolTag: {
             process: function(blk) {
-                return "<div class='mole'>" + blk.body + "</div>";
+                return "<div class='mole'>" + blk.body + " " + cool() + "</div>";
             }
         }
     }
